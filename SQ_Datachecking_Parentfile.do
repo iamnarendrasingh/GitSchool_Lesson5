@@ -57,15 +57,17 @@ global level4name location
 **** DIRECTORIES****
 
 **Global directory for the dropbox where the csv files are originally stored
-global csvdir "/Users/varshasrivatsan/Documents/Kenya Test Forms/EXPORTED FORMS"
+*global csvdir "/Users/varshasrivatsan/Documents/Kenya Test Forms/EXPORTED FORMS"
+global csvdir "E:\Dropbox (Gates Institute)\PMADataManagement_Rajasthan\Phase1\Data\CSV_Files\Test"
 
 **Create a global data directory - NEVER DROPBOX
-global datadir "/Users/varshasrivatsan/Documents/Kenya Test Do-Files/Datasets"
+*global datadir "/Users/varshasrivatsan/Documents/Kenya Test Do-Files/Datasets"
+global datadir "E:\Dropbox (Gates Institute)\PMA\Phase1\Data\SDP"
 
 **Create a global do file directory
 **Should be your GitKraken working directory for the SDP_CQ_Cleaning-Monitoring Repository
-global dofiledir "/Users/varshasrivatsan/Documents/Github_Core Data Management/SDP_CQ_Cleaning-Monitoring"
-
+*global dofiledir "/Users/varshasrivatsan/Documents/Github_Core Data Management/SDP_CQ_Cleaning-Monitoring"
+global dofiledir "E:\PMA_Gitkraken\PMARajasthan-DataManagement-GitHub\PMAPhase1\SDP_CQ_Cleaning-Monitoring"
 
 *******************************************************************************************
  			******* Stop Updating Macros Here *******
